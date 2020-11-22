@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="title">
+            <h1><span class="title__fancy">vintage<br></span> <span class="title__main">SLOT</span><br>
+                <span class="title__subtitle">machine</span></h1>
+        </div>
+
+        <div class="machine">
+            <div class="slots panel">
+                <div class="reel reel-1"></div>
+                <div class="reel reel-2"></div>
+                <div class="reel reel-3"></div>
+            </div>
+            <div class="panel panel-message">
+                <p class="message">You lose</p>
+            </div>
+            <div class="panel panel-action">
+                <div class="cash">
+                    <p class="name">Cash</p>
+                    <span class="wallet">100.00</span>
+                </div>
+                <div class="bet">
+                    <p class="name">Bet</p>
+                    <input class="bet-input" type="number">
+                </div>
+                <button class="spin-btn">Spin</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <small class="copy">Created by <a class="copy-link" href="https://github.com/brozinsky">brozinsky</a> &copy;
+            2020
+        </small>
+    </footer>
+
+    <img class="frame tl" src="/svg/decorations.svg">
+    <img class="frame tr" src="/svg/decorations.svg">
+    <img class="frame bl" src="/svg/decorations.svg">
+    <img class="frame br" src="/svg/decorations.svg">
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
