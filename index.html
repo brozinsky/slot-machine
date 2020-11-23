@@ -22,19 +22,23 @@
                 <div class="reel reel-3"></div>
             </div>
             <div class="panel panel-message">
-                <p class="message">You lose</p>
+                <p class="message"></p>
             </div>
             <div class="panel panel-action">
                 <div class="cash">
                     <p class="name">Cash</p>
-                    <span class="wallet">100.00</span>
+                    <span class="money"></span>
                 </div>
                 <div class="bet">
                     <p class="name">Bet</p>
-                    <input class="bet-input" type="number">
+                    <input id="bet" class="bet-input" type="number">
                 </div>
-                <button class="spin-btn">Spin</button>
+                <button id="start" class="spin-btn">Spin</button>
             </div>
+        </div>
+        <div class="score">
+            <p>Spins: <span class="games"></span> Wins: <span class="wins"></span> Losses: <span class="losses"></span>
+            </p>
         </div>
     </main>
     <footer class="footer">
@@ -48,7 +52,7 @@
     <img class="frame bl" src="/svg/decorations.svg">
     <img class="frame br" src="/svg/decorations.svg">
 
-    <script src="main.js" type="module"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
